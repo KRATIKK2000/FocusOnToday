@@ -1,0 +1,206 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #48A30012;
+    
+}
+.head{
+    width: 511px;
+    height: 96px;
+    display: inline;
+    margin: 20px;
+    padding: 10px;
+}
+.heading{
+    color: #48A300;
+    text-align: center;
+    font-family: Poppins;
+  font-size: 64px;
+}
+
+.heading span{
+    color: #61481C;
+
+}
+
+.mainPage{
+    width: 660px;
+    height: 810px;
+    background-color: #FBFBFB;
+    margin: auto;
+    border: 2px solid black;
+   border-radius: 15px;
+   padding: 32px 42px;
+}
+.today{
+    /* width: 125px; */
+    /* height: 30px; */
+    font-weight: 700;
+    font-size: 32px;
+     /* display: inline; */
+   font-family: Poppins;
+   margin-right: 10px;
+ 
+
+}
+.todaySideImage{
+    display: inline;
+    width: 50px;
+    height: 50px;
+}
+.para1Parent{
+    display: flex;
+    align-items: center;
+    
+}
+.mainPara{
+    width: 320px;
+    /* height: 28px; */
+    color: #858585;
+    margin-top: 20px;
+    background-color: white;
+    line-height: 21px;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: Poppins;
+}
+.progressBar{
+    width: 574;
+    height: 30px;
+    border-radius: 15px;
+    
+    background-color: rgba(128, 128, 128, 0.619);
+    margin-top: 18px;
+}
+.warning{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: Poppins;
+    width: 320px;
+    height: 22px;
+    background-color: white;
+    margin-top: 15px;
+    color: #FF5151;
+    display: none;
+}
+
+.inputContainer{
+    width: 570px;
+    height: 82px;
+    border-radius: 17px;
+    border: 1px solid rgba(192, 189, 189, 0.82);
+    /* margin-top: 10px; */
+    display: flex;
+    align-items: center;
+    margin-top: 45px;
+    
+}
+.checkBox{
+    width: 24px;
+    height: 24px;
+    border: 2px solid #61481C4D;
+    border-radius: 50%;
+    margin: 10px;
+}
+.input{
+    width: 364px;
+    height: 28px;
+    font-size: 16px;
+    line-height: 24px;
+    border: none;
+    outline: none;
+}
+.mainPagePara2{
+     
+ 
+  height: 28px;
+  font-size: 16px;
+  margin-top: 35px;
+
+  text-align: center;  
+}
+.mainPagePara3{
+font-size: 10px;
+text-align: center;
+margin-top: 30px;
+}
+.completePregress{
+    width: 0%;
+    height: 100%;
+    border-radius: 17px;
+ background-color: rgb(43, 255, 0);
+ display: flex;
+ align-items: center;
+ transition: width 0.3s ease-in-out;
+
+}
+.progressText{
+    color: #FBFBFB;
+    margin-left: 5px;
+
+}
+.showTask{
+    margin-top: 10px;
+    font-weight: bolder;
+    color: rgb(255, 196, 0);
+}
+
+
+/* adding css for js  */
+/* ****************** */
+.completeCheckBox{
+    background-color: rgb(11, 166, 21);
+   background-size:  contain;
+   background-repeat: no-repeat;
+   background-image: url("https://cdn-icons-png.freepik.com/256/4436/4436481.png?semt=ais_hybrid");
+   
+}
+.completeInput{
+    color: #48A300;
+    text-decoration: line-through;
+    
+}
+
+/* ************* */
+
+
+
+
+
+
+
+
+
+@media  (min-width:0px ) and (max-width:660px) {
+    .heading{
+        /* background-color: red; */
+        font-size: 32px;
+        /* text-align: center; */
+    }
+    .head{
+        text-align: center;
+    }
+    .mainPage{
+        width: 350px;}
+        
+    .inputContainer {
+      width: 275px;
+      height: 40px;}
+      .input {
+        height: 28px;
+        font-size: 16px;
+        line-height: 24px;
+        border: none;
+        outline: none;
+        width: auto;
+    }
+    .warning {
+        width: auto;
+    }
+    .mainPara {
+        width: auto;}
+
+}
